@@ -1,27 +1,6 @@
-nav {
-background-color: var(--nav-background-color);
-font-size: 1.2rem;
-display: flex;
-}
+@import url('https://fonts.google.com/specimen/Prompt?query=prom'); 
 
-nav a {
-    display: block;
-    color: var(--nav-link-color);
-    text-decoration: none;
-    padding: 1rem;
-}
-
-nav a:link, nav a:visited{
-    color: var(--nav-link-color)
-}
-
-nav a:hover {
-    color: var(--navhover-link-color);
-    background-color: var(--nav-hover-background-color);
-}
-
-@import url(https://fonts.google.com/specimen/Prompt?query=prompt);
-root {
+:root {
 
     --primary-color: #38726c;
     --secondary-color: #563f1b;
@@ -37,7 +16,7 @@ root {
     --nav-hover-background-color: #563f1b;
 }
 
-body{
+body {
     font-family: var(--paragraph-font) ;
     max-width: 960px;
     padding: 20px;
@@ -56,4 +35,24 @@ p{
     padding: 25px;
 }
 
-
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+    }
+    
+    nav a {
+        display: block;
+        color: var(--nav-link-color);
+        text-decoration: none;
+        padding: 1rem;
+    }
+    
+    nav a:link, nav a:visited{
+        color: var(--nav-link-color)
+    }
+    
+    nav a:hover {
+        color: var(--navhover-link-color);
+        background-color: var(--nav-hover-background-color);
+    }
