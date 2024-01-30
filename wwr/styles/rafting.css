@@ -6,7 +6,7 @@
     --font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3 { 
     color: var(--primary-color);
     font-family: var(--font-family);
 }
@@ -42,6 +42,7 @@ body {
 }
 
 .hero img {
+    display: block;
     width: 100%;
     height: auto;
     margin-top: 80px;
@@ -94,7 +95,7 @@ article img {
 }
 
 article p {
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .galeria img {
