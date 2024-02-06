@@ -105,8 +105,8 @@ aside h2 {
 }
 .contenedor {
     border: 1px solid #ddd; 
-    border-right: -100px;
-    border-left: -20px;
+    margin-right:  -100px;
+    margin-left:  -20px;
     display:inline; 
 }   
 
