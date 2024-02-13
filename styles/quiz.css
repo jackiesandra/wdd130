@@ -1,0 +1,116 @@
+@import url('https://fonts.google.com/specimen/Roboto');
+
+* {
+    margin:5px ;
+    padding: 2px;
+    box-sizing:border-box;
+    align-items: center;
+    color: hwb(190 4% 67%);
+}
+body {
+  font-family: Merriweather, Georgia, serif;
+  font-size: 1.2em;
+  color: hwb(180 6% 24%);
+  background: rgba(230, 232, 236, 0.576);
+  text-align:start;
+  display:inline-block;
+}
+
+header {
+  margin: 0 auto;
+  width: 8px;
+  text-align:start;
+  color: hsla(150, 59%, 45%, 0.541);
+}
+
+h1 {
+  margin: 1rem;
+  font-size: 1.5em;
+  color: rgb(30, 194, 137);
+  text-align:center;
+  width:100px;
+  position:relative;
+  white-space: nowrap;
+  margin-left: 10px;
+}
+
+
+form {
+  width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  color: rgb(26, 113, 97);
+  display:grid;
+  align-items: center;
+  margin-left: 40%;
+}
+
+fieldset {
+  display:grid;
+  grid-gap: .2rem;
+  margin: 5%;
+  border: 3px solid rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  width: 500px;
+  background-color: #758686;
+  
+}
+
+legend {
+  padding: 2px;;
+  color: hsl(224, 82%, 41%);
+  font-size: 1.3em;
+}
+
+label, input, button, select, textarea {
+  font-family: Roboto, Arial, sans-serif;
+}
+
+label {
+  text-align:center;
+  padding-right: 1rem;
+}
+
+input, select, textarea {
+  padding: 0.5rem;
+  font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+  width: 22px;
+  height: 22px;
+  vertical-align: bottom;
+}
+
+button {
+  margin: 1rem;
+  background-color: navy;
+  color: #fff;
+  border: none;
+  border-radius: .5rem;
+  padding: 2rem;
+  font-size: 1.2rem;
+}
+
+button:hover {
+  background-color: #163a8f;
+}
+
+footer {
+  margin: 1rem auto 0;
+  width: 650px;
+  text-align: center;
+  font-size: 0.8em;
+  color: hwb(150 5% 7%);
+  border-top: 1px solid hsl(128, 70%, 39%);
+  margin-left: 500px;
+}
+
+.form-item {
+  display: grid;
+  align-items:start;
+
+}
+

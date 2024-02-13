@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+:root {
+    --primary-color: #D90368;
+    --secondary-color: #2E294E;
+    --font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 { 
+    color: var(--primary-color);
+    font-family: var(--font-family);
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.social-media-link {
+    text-decoration: none;
+        position: fixed;
+        display: flex;
+}
+
+.socialinks img {
+    width: 60px;
+    height: auto;
+    border-radius: 50%;
+    float: right;
+}
+
+body {
+ max-width: 1200px;
+margin: 0%;
+display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    text-align: left;
+    width: 80%;
+}
+
+h1 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #cc337a;
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
+ 
+h2 {
+        text-align: center;
+        padding-top: 1%; 
+        padding-bottom: 100%; 
+        padding: 10px; 
+        margin-left: 100px; 
+}
+
+
+.employee-profiles {
+    display:flex;
+  align-items:center;
+  text-align:center;
+}
+
+.employee-profiles img  {
+    width:300px;
+    height: 250px;
+    padding-top: 40px;
+}
+
+ figure {
+   text-align: center;
+ align-items: start;
+  }
+  
+  figcaption {
+    display:block; 
+    text-align:left; 
+
+}
+
+
+header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    justify-content:space-evenly;
+    border-bottom: 2px solid;
+}
+ 
+nav {
+ display: flex;
+  justify-content:space-evenly;
+  background-color:#bad6ee;
+height: 50px;
+}
+  
+  .footer {
+    margin: 1rem auto 0;
+  width: 650px;
+  text-align: center;
+  font-size: 0.8em;
+  color: hwb(150 5% 7%);
+  border-top: 1px solid hsl(128, 70%, 39%);
+  margin-left: 500px;
+}
+
+.contact-form {
+        width: 300px;
+        color: hsl(232, 92%, 46%);
+        height: 500px;
+        text-align: left;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    .contact-form {
+        display:grid;
+    }
+
+
+button {
+    background-color: hsl(62, 70%, 53%);
+    width: 100px;
+    border:#1929d5;
+    border-radius: .1rem;
+    padding: 1rem;
+    font-size: 1rem;
+    margin-left: 100px;
+  }
+  
+  
+.box {
+    width: 200px;
+}
+
+.maps iframe {
+    align-items: center;
+}
+
+p {
+    color: #d5198a;
+    
+}
