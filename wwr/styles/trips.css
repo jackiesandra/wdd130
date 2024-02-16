@@ -1,0 +1,190 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+    body {
+    font-family: roboto, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  
+  header {
+    background: rgba(221, 239, 65, 0.436);
+    color: hwb(0 0% 100%);
+    padding-top: 20px;
+    min-height: 30px;
+    border-bottom: hsl(0, 11%, 88%) 3px solid;
+  }
+  
+  header h1 {
+    float: left;
+    margin-left: 20px;
+    color: hsl(235, 79%, 47%);
+  }
+  
+  header nav {
+    float: right;
+    margin-right: 20px;
+  }
+  
+  header nav a {
+    color: hsl(0, 0%, 3%);
+    text-decoration: none;
+    padding: 5px 10px;
+    display: inline-block;
+  }
+  
+  
+  main {
+    padding: 20px;
+  }
+  
+  main h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: -80px;
+    color: hsl(239, 83%, 45%);
+  }
+
+  main img {
+align-items: center;
+width: 90rem;
+height: 450px;
+display:grid;
+padding-left: 80px;
+  }
+
+  .contact-link {
+    padding-left: 700px;
+  }
+  
+  
+  .images-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .img-container img {
+    width: 45%;
+  }
+  
+  
+  .images-container img {
+    width: 45%;
+  }
+  
+
+  #trip-descriptions {
+    margin-bottom: 20px;
+  }
+  
+  .trip {
+    background: hwb(187 45% 12% / 0.32);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 1px;
+    height: auto;
+  }
+
+  .trip img {
+    width: 800px;
+    height: 350px;
+    margin-left: 600px;
+  }
+
+  .trip h2 {
+    margin-bottom: 10px;
+    display: block;
+    color: rgb(9, 19, 201);
+  }
+  
+.trip li {
+ padding-top: 10px;
+ font-size: x-large;
+}
+  
+  #trip-table {
+    background: hwb(69 81% 8%);
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 150px;
+  }
+
+  .book-now-button {
+    background-color: hsl(237, 71%, 40%); 
+    color: white; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 18px; 
+}
+
+.book-now-button:hover {
+    background-color: #45a049;
+}
+
+  
+  #trip-table table {
+    width: 100%;
+    border-collapse:collapse;
+    height: 100px;
+  }
+  
+  #trip-table th, #trip-table td {
+    padding: 2px;
+    text-align: center;
+font-size: large;
+  }
+  
+  #trip-table th {
+    background-color: #dd8818bd;
+   align-items: center;
+  }
+
+    #trip-table {
+      width:80%;
+      height: 100%;
+      text-align: center;
+  }
+  
+  footer {
+    background: hsl(0, 78%, 98%);
+    color: hwb(0 2% 96%);
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    height: 10px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  footer img {
+    width: 50px;
+    margin-left: 10px;
+    padding:5px ;
+  }
+  
+  .social-links {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .social-links a {
+    margin: 5px;
+  }
+  
+  
