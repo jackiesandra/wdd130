@@ -19,7 +19,7 @@
   
   
   header {
-    background: rgba(221, 239, 65, 0.436);
+    background: hwb(42 19% 16% / 0.653);
     color: hwb(0 0% 100%);
     padding-top: 20px;
     min-height: 30px;
@@ -121,7 +121,7 @@ padding-left: 80px;
     margin-left: 150px;
   }
 
-  .book-now-button {
+  button  {
     background-color: hsl(237, 71%, 40%); 
     color: white; 
     padding: 10px 20px;
@@ -131,7 +131,7 @@ padding-left: 80px;
     font-size: 18px; 
 }
 
-.book-now-button:hover {
+button:hover {
     background-color: #45a049;
 }
 
