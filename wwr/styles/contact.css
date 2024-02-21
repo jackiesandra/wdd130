@@ -57,6 +57,7 @@ h1 {
     text-align: center;
     margin-top: 20px;
     width: 100%;
+    font-size: 20px;
 }
  
 h2 {
@@ -105,6 +106,7 @@ nav {
   justify-content:space-evenly;
   background-color:#bad6ee;
 height: 50px;
+font-size: 30px;
 }
   
   .footer {
@@ -118,12 +120,13 @@ height: 50px;
 }
 
 .contact-form {
-        width: 300px;
+        width: 500px;
         color: hsl(232, 92%, 46%);
         height: 500px;
         text-align: left;
         padding-top: 10%;
-        padding-bottom: 10%;
+        padding-bottom: 30%;
+        font-size: 30px;
     }
     .contact-form {
         display:grid;
@@ -147,6 +150,7 @@ button {
 
 .maps iframe {
     align-items: center;
+    width: 1000px;
 }
 
 p {
